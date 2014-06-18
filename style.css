@@ -46,7 +46,7 @@ input {
 li input {
   margin-right: 8px;
 }
-
+ 
 .completed span {
   text-decoration: line-through;
   color: grey;
