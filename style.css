@@ -1,0 +1,70 @@
+* {font-family: 'Just Another Hand', calibri, helvetica;}
+
+body {
+  width: 960px;
+  margin-left: 181px;
+} 
+
+#container {
+  height: 1080px;
+  background: url('http://i.imgur.com/vX0e5y1.jpg') no-repeat;
+  padding-left: 181px;
+  overflow:auto;
+}
+
+header {
+  padding-left: 25px;
+}
+
+p {
+  margin: 0px;
+  font-family: calibri, helvetica, san-serif;
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 75px;
+  margin: 15px 0 15px 200px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 50px;
+  margin-top: 35px;
+  line-height: 72px;
+}
+
+li:hover {
+  cursor: move;
+}
+
+input {
+  font-family: calibri, helvetica, san-serif;
+}
+
+li input {
+  margin-right: 8px;
+}
+
+.completed span {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.edit, .delete {
+  text-decoration: underline;
+  display: none;
+}
+
+.edit {
+  color: green;
+}
+
+.delete {
+  color: red;
+}
+
+li:hover .edit, li:hover .delete {
+  display: inline;
+}
